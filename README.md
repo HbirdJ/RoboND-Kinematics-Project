@@ -54,7 +54,8 @@ def transformbuild(DHparam):
     totaltransform = simplify(totaltransform)
     print "Simplify and build complete."
     
-    return totaltransform```
+    return totaltransform
+```
 
 That allowed me to piece together the forward kinematics so I could calculate where in 3D space the robot's gripper was located and oriented based only on the joint positions.
 
